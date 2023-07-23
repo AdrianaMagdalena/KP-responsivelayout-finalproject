@@ -1,0 +1,18 @@
+:root {
+  --ff-main: "Montserrat", sans-serif;
+  --ff-accent: "Oswald", sans-serif;
+
+  --fs-xs: 16px;
+  --fs-s: 18px;
+  --fs-s-regular: 21px;
+  --fs-m-regular: 24px;
+  --fs-m: 30px;
+  --fs-l: 36px;
+  --fs-xxl: 90px;
+
+  --clr-bg-header: #2e323f;
+  --clr-bg-dark: #3b4050;
+  --clr-grey: #f1f1f1;
+  --clr-white: #fff;
+  --clr-gold: #a59678;
+}
