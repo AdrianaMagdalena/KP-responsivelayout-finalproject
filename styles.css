@@ -16,3 +16,105 @@
   --clr-white: #fff;
   --clr-gold: #a59678;
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: var(--ff-main);
+  color: var(--clr-bg-dark);
+}
+
+.white-text {
+  color: var(--clr-white);
+}
+
+.grey-text {
+  color: var(--clr-grey);
+}
+
+.gold-text {
+  color: var(--clr-gold);
+}
+
+.btn {
+  background-color: var(--clr-gold);
+  color: #fff;
+  font-family: var(--ff-accent);
+  text-transform: uppercase;
+  border: none;
+  padding: 0.25em 0.75em;
+  border-radius: 1em;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--clr-bg-header);
+  padding: 1.5rem 0;
+  font-family: var(--ff-accent);
+  font-size: var(--fs-s);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.navigation ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.signin-btn {
+  margin-left: 0.75em;
+}
+
+.intro {
+  background-color: var(--clr-bg-dark);
+  padding: 3rem 0;
+}
+
+.section-one {
+  background-color: var(--clr-grey);
+  padding: 3rem 0;
+}
+
+.aside__card {
+  background-color: var(--clr-bg-dark);
+  padding: 2rem;
+}
+
+.footer {
+  background-color: var(--clr-bg-dark);
+  padding: 3rem 0;
+}

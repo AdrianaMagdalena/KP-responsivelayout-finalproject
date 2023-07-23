@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="container row">
         <img
           class="logo"
@@ -29,7 +29,9 @@
             <li><a class="white-text" href="#">contact</a></li>
           </ul>
           <ul class="nav__buttons">
-            <li><a class="white-text" href="#">sign in</a></li>
+            <li class="signin-btn">
+              <a class="white-text" href="#">sign in</a>
+            </li>
             <li class="signup-btn btn">
               <a class="white-text" href="#">sign up</a>
             </li>
@@ -91,7 +93,11 @@
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam.
           </p>
-          <img alt="website design sketches" src="./img/image.jpg" />
+          <img
+            class="img"
+            alt="website design sketches"
+            src="./img/image.jpg"
+          />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -101,21 +107,21 @@
           </p>
         </main>
         <aside>
-          <div>
+          <div class="aside__card">
             <h3 class="white-text">Break it down</h3>
             <p class="grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div>
+          <div class="aside__card">
             <h3 class="white-text">Work your way up</h3>
             <p class="grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div>
+          <div class="aside__card">
             <h3 class="white-text">Style it up</h3>
             <p class="grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -125,10 +131,10 @@
         </aside>
       </div>
     </section>
-    <footer>
+    <footer class="footer">
       <div class="container row">
         <h2 class="footer-title white-text">Just scratching the surface</h2>
-        <ul>
+        <ul class="grey-text">
           <li class="footer__section-title gold-text">About our company</li>
           <li>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
