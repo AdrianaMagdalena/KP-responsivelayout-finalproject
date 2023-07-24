@@ -216,3 +216,111 @@ body {
   font-family: var(--ff-accent);
   font-size: var(--fs-s);
 }
+
+@media screen and (min-width: 700px) {
+  .header .row,
+  .section-one .row,
+  .section-two aside {
+    flex-direction: row;
+  }
+
+  .navigation {
+    gap: 3rem;
+  }
+
+  .nav__links,
+  .nav__buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .intro .row {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .intro {
+    padding: 4rem 0;
+  }
+
+  .intro h1 {
+    max-width: 300px;
+  }
+
+  .header .row {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .intro,
+  .section-one,
+  .section-two {
+    padding: 5rem 0;
+  }
+
+  .section-two .row {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .section-two main {
+    flex: 2;
+  }
+
+  .section-two aside {
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .header {
+    font-size: var(--fs-s);
+  }
+
+  .intro h1 {
+    font-size: var(--fs-xxl);
+    max-width: 500px;
+  }
+
+  .intro__text p,
+  .intro__text .btn {
+    font-size: var(--fs-m-regular);
+  }
+
+  .section-one h3 {
+    font-size: var(--fs-m);
+  }
+
+  .section-one p {
+    font-size: var(--fs-s);
+  }
+
+  .section-two h2 {
+    font-size: var(--fs-l);
+  }
+
+  .section-two main p {
+    font-size: var(--fs-s-regular);
+  }
+
+  .aside__card h3 {
+    font-size: var(--fs-m);
+  }
+
+  .aside__card p {
+    font-size: var(--fs-s);
+  }
+
+  .footer__title {
+    font-size: var(--fs-m);
+  }
+
+  .footer li {
+    font-size: var(--fs-xs);
+  }
+
+  .footer .footer__section-title {
+    font-size: var(--fs-s-regular);
+  }
+}
