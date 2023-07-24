@@ -179,3 +179,40 @@ body {
   background-color: var(--clr-bg-dark);
   padding: 3rem 0;
 }
+
+.footer__title {
+  font-family: var(--ff-accent);
+  font-size: var(--fs-m-regular);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer .row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .row ul {
+  flex: 1;
+}
+
+.footer .row .about-company {
+  flex: 3;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer li {
+  font-size: var(--fs-xs);
+}
+
+.footer .footer__section-title {
+  font-family: var(--ff-accent);
+  font-size: var(--fs-s);
+}
