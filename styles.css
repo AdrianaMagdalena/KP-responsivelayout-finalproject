@@ -8,6 +8,7 @@
   --fs-m-regular: 24px;
   --fs-m: 30px;
   --fs-l: 36px;
+  --fs-xl: 50px;
   --fs-xxl: 90px;
 
   --clr-bg-header: #2e323f;
@@ -33,6 +34,7 @@
 body {
   font-family: var(--ff-main);
   color: var(--clr-bg-dark);
+  line-height: 1.6;
 }
 
 .white-text {
@@ -73,7 +75,7 @@ body {
 .row {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
 }
 
 .logo {
@@ -102,6 +104,22 @@ body {
 .intro {
   background-color: var(--clr-bg-dark);
   padding: 3rem 0;
+}
+
+.intro h1 {
+  font-family: var(--ff-accent);
+  font-size: var(--fs-xl);
+  line-height: 1.1;
+}
+
+.intro__text p {
+  font-family: var(--ff-main);
+  font-size: var(--fs-s);
+}
+
+.intro__text .btn {
+  font-size: var(--fs-s);
+  margin-top: 1rem;
 }
 
 .section-one {
